@@ -3,5 +3,5 @@ A end-to-end Data Engineering Project built on Databricks and AWS S3, demonstrat
 
 ---
 ## 📐 Data Architecture
-
+![Data Architecture](/docs/data_architecture.png)
 
