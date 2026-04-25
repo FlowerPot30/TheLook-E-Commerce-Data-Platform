@@ -84,15 +84,23 @@ thelook-data-platform/
   
 ---
 
-## 🚀 Getting Strated
+## 🚀 Getting Started
 ### Prerequisites
 - Databricks Free Edition Account
 - AWS account with S3 bucket
 
 ### Steps
 1. Upload datasets to S3 under raw/ folder
-2. Create Credential in Databricks
-3. Create External Location in Databricks
+2. Create IAM Role and attach policy above
+3. Create Credential in Databricks
+4. Create External Location in Databricks
+5. Run notebooks in order
+   - 01_bronze_ingestion
+   - 02_silver_transformation
+   - 03_gold_modeling
+   - 04_data_quality
+
+**Note**: Using AvailableNow trigger instead of Continuous due to Databricks Free Edition limitation.
    
 
      
