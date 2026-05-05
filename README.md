@@ -4,7 +4,7 @@ A end-to-end Data Engineering Project built on Databricks and AWS S3, demonstrat
 ---
 
 ## 📐 Data Architecture
-![Data Architecture](docs/data_architecture)
+![Data Architecture](https://github.com/FlowerPot30/TheLook-E-Commerce-Data-Platform/blob/main/docs/data_architecture.jpg)
 - **Incremental ingestion** via Databricks Auto Loader, picks up new files automatically without reprocessing old data
 - **Delta Lake** for ACID transactions and time travel all layers
 - **Star Schema** on Gold layer optimized for analytical queries
